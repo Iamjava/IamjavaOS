@@ -24,13 +24,13 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
        - https://copr.fedorainfracloud.org/coprs/phracek/PyCharm/repo/fedora-%OS_VERSION%/phracek-PyCharm-fedora-%OS_VERSION%.repo
-       - https://copr.fedorainfracloud.org/coprs/coder966/intellij-idea-ultimate/repo/fedora-%OS_VERSION%/coder966-intellij-idea-ultimate-fedora-%OS_VERSION%.repo
+       #- https://copr.fedorainfracloud.org/coprs/coder966/intellij-idea-ultimate/repo/fedora-%OS_VERSION%/coder966-intellij-idea-ultimate-fedora-%OS_VERSION%.repo
     install:
        - micro
        - neovim
        - docker
-       - PyCharm
-       - intellij-idea-ultimate 
+       - phracek/PyCharm 
+      # - intellij-idea-ultimate 
       # - starship
     remove:
       #- firefox # default firefox removed in favor of flatpak
