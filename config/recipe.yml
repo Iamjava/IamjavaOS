@@ -29,8 +29,8 @@ modules:
        - micro
        - neovim
        - docker
-       - phracek/PyCharm 
-      # - intellij-idea-ultimate 
+       - pycharm-community
+       - intellij-idea-ultimate 
       # - starship
     remove:
       #- firefox # default firefox removed in favor of flatpak
