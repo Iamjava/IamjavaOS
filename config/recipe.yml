@@ -31,6 +31,8 @@ modules:
        - docker
        - pycharm-community
        - intellij-idea-community
+       - fish 
+       - deja-dup
       # - starship
     remove:
       #- firefox # default firefox removed in favor of flatpak
