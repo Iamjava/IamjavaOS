@@ -26,13 +26,12 @@ modules:
        - https://copr.fedorainfracloud.org/coprs/phracek/PyCharm/repo/fedora-%OS_VERSION%/phracek-PyCharm-fedora-%OS_VERSION%.repo
        - https://copr.fedorainfracloud.org/coprs/lkiesow/intellij-idea-community/repo/fedora-%OS_VERSION%/lkiesow-intellij-idea-community-fedora-%OS_VERSION%.repo
     install:
-       - micro
        - neovim
-       - docker
-       - pycharm-community
-       - intellij-idea-community
+       #- docker
+       #- pycharm-community
+       #- intellij-idea-community
        - fish 
-       - deja-dup
+       #- deja-dup
       # - starship
     remove:
       #- firefox # default firefox removed in favor of flatpak
